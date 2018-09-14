@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  color: #999;
+}
+
+header {
+background-color: plum;
+/* width: 100%; */
+}
+
+.top-container {
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+
+.logo-container {
+  width: 100%;
+  height: 90px;
+}
+
+.logo-container img {
+  margin-top:10px;
+  height: 70px;
+  position: relative;
+  left: 7px;
+}
+
+.cartbox {
+  display: inline-block;
+  width: 100px;
+  float: right;
+  top: 35px;
+  right: 20px;
+  position: absolute;
+}
+
+.cartbox img {
+  height: 100%;
+  margin-top: 10px;
+}
+
+.search {
+  display: inline-block;
+  width: 100px;
+  float: left;
+  top: 35px;
+  left: 100px;
+  position: absolute;
+}
+
+.search img {
+  height: 100%;
+  margin-top: 10px;
+}
+
+.autocomplete-container {
+  height: 30px;
+  float: left;
+  width: 279px;
+  left: 132px;
+  top: 26px;
+  display: inline-block;
+  position: absolute;
+}
+
+.autocomplete-container input {
+  width: 300px;
+  height: 30px;
+}
+
+.main-container3 {
+  width: 33%;
+  height: 300px;
+  background-color: lightsalmon;
+  display: inline-block;
+}
+
+.fa-shopping-cart {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.fa-search {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.textbox {
+  display: block;
+  text-align: left;
+}
+
+
+.slider {
+width: 100%;
+text-align: center;
+margin-top: 50px;
+background-color: #e1e1e1;
+padding: 15px;
+}
+
+.pic {
+  display: inline-block;
+  margin-right: 20px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.textotitulo {
+  text-align: left;
+  display: block;
+  font-weight: 500;
+}
+
+.autor {
+  text-align: left;
+  display: block;
+  font-weight: 200;
+}
+
+@media (max-width: 800px) {
+
+  .slider {
+    padding: 0;
+  }
+
+  .autocomplete-container {
+    display: none;
+  }
+
+  .logo-container img {
+    margin-top:10px;
+    /* width: 33%; */
+  }
+
+  .cartbox {
+    display: inline-block;
+    height: 50px;
+    float: left;
+    left: 95px;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .pic {
+    width: 75%;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .textotitulo {
+    text-align: left;
+    display: inline-block;
+    font-weight: 500;
+  }
+
+  .autor {
+    text-align: left;
+    display: inline-block;
+    font-weight: 200;
+  }
+
+  .textbox {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    line-height: 0.2px;
+    margin-left: 20px;
+        bottom: 80px;
+  }
+
+}
